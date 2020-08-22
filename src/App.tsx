@@ -1,9 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
+
+import LinePlot from "./components/LinePlot"
 
 const App = () => {
   return (
-    <h1>hello</h1>
+    <div className="App">
+      <LinePlot />
+    </div>
   )
 }
 

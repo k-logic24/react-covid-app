@@ -16,9 +16,9 @@ const data = {
 
 const LinePlot: React.FC = () => {
   return (
-    <div>
+    <>
       <Line data={data} />
-    </div>
+    </>
   )
 }
 

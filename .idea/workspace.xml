@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="94517f6d-de00-48a1-a37b-f4222519eeec" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/features/covid/Cards/Cards.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/covid/Cards/Cards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/covid/Cards/Cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/Cards/Cards.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +29,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -42,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598172275349</updated>
       <workItem from="1598172276525" duration="6231000" />
-      <workItem from="1598240026579" duration="1691000" />
+      <workItem from="1598240026579" duration="4643000" />
     </task>
     <servers />
   </component>
@@ -58,5 +63,9 @@
       <screen x="-169" y="-1057" width="1920" height="1057" />
     </state>
     <state x="300" y="-890" key="SettingsEditor/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1598172397386" />
+    <state x="456" y="-822" key="search.everywhere.popup" timestamp="1598273091627">
+      <screen x="-169" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="456" y="-822" key="search.everywhere.popup/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1598273091627" />
   </component>
 </project>

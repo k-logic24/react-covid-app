@@ -9,7 +9,15 @@
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/Counter.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/Counter.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/counterSlice.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/covid/Cards/Cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/Cards/Cards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/covid/covidSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/covidSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598172275349</updated>
       <workItem from="1598172276525" duration="6231000" />
-      <workItem from="1598240026579" duration="5721000" />
+      <workItem from="1598240026579" duration="5959000" />
     </task>
     <servers />
   </component>
@@ -61,6 +69,10 @@
       <screen x="-169" y="-1057" width="1920" height="1057" />
     </state>
     <state x="546" y="-729" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1598221142115" />
+    <state x="529" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598274513668">
+      <screen x="-169" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="529" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1598274513668" />
     <state x="300" y="-890" key="SettingsEditor" timestamp="1598172397386">
       <screen x="-169" y="-1057" width="1920" height="1057" />
     </state>

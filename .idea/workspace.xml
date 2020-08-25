@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94517f6d-de00-48a1-a37b-f4222519eeec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/layouts/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Country.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.tsx" afterDir="false" />
@@ -10,7 +10,9 @@
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/covid/DashBoard/DashBoard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/DashBoard/DashBoard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/covid/covidSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/covidSlice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598172275349</updated>
       <workItem from="1598172276525" duration="6231000" />
-      <workItem from="1598240026579" duration="17508000" />
+      <workItem from="1598240026579" duration="19662000" />
     </task>
     <servers />
   </component>

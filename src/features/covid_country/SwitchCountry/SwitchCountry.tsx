@@ -1,10 +1,10 @@
 import React from 'react'
-import {makeStyles} from "@material-ui/core/styles"
-import {NativeSelect, FormControl} from "@material-ui/core"
-import {useDispatch} from "react-redux"
+import {NativeSelect, FormControl} from '@material-ui/core'
+import {makeStyles} from '@material-ui/core/styles'
 
-import {countries} from "../../../utils/variables";
-import {fetchAsyncGetCountry} from "../covidSlice"
+import {countries} from '../../../utils/variables'
+import {useDispatch} from 'react-redux'
+import {fetchAsyncGetDaily} from '../covidCountrySlide'
 
 const useStyles = makeStyles((theme) => ({
   formControl: {
@@ -20,9 +20,8 @@ const SwitchCountry: React.FC = () => {
   return (
     <FormControl className={classes.formControl}>
       <NativeSelect
-        onChange={(event: React.ChangeEvent<HTMLSelectElement>) => dispatch(fetchAsyncGetCountry(event.target.value))
+        onChange={(event: React.ChangeEvent<HTMLSelectElement>) => dispatch(fetchAsyncGetDaily(event.target.value))
         }>
-        <option value="">Worldwide</option>
         {countries.map((country, index) => (
           <option key={index} value={country}>
             {country}
@@ -30,7 +29,7 @@ const SwitchCountry: React.FC = () => {
         ))}
       </NativeSelect>
     </FormControl>
-  );
-};
+  )
+}
 
-export default SwitchCountry;
+export default SwitchCountry

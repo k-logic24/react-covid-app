@@ -1,9 +1,12 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React, {useEffect, useState} from 'react'
+import {Link, useLocation} from 'react-router-dom'
 import {AppBar, Toolbar, Typography} from "@material-ui/core"
+
+import {makeStyles} from "@material-ui/core/styles"
+
 import {useSelector} from "react-redux"
 import {selectData} from "../features/covid/covidSlice"
-import {makeStyles} from "@material-ui/core/styles"
+import {selectDaily} from "../features/covid_country/covidCountrySlide";
 
 const useStyles = makeStyles(() => ({
   title: {
@@ -22,8 +25,11 @@ const useStyles = makeStyles(() => ({
 }))
 
 const Header: React.FC = () => {
+  const location = useLocation()
+  const pathname = location.pathname
   const classes = useStyles()
   const data = useSelector(selectData)
+  const daily = useSelector(selectDaily)
 
   return (
     <AppBar position="absolute">
@@ -31,7 +37,11 @@ const Header: React.FC = () => {
         <Typography className={classes.title}>
           Covid-19 Live<br />
           <span className={classes.subtitle}>
-            -{data && new Date(data.lastUpdate).toDateString()}
+            -{
+            pathname === '/'
+              ? data && new Date(data.lastUpdate).toDateString()
+              : daily.length && new Date(daily[daily.length - 1].Date).toDateString()
+          }
           </span>
         </Typography>
         <Typography>

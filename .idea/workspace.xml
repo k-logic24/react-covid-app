@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94517f6d-de00-48a1-a37b-f4222519eeec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Country.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/covid_country/Cards/Cards.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/covid_country/Cards/Cards.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/covid_country/Chart/Chart.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/covid_country/Chart/Chart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/covid_country/DashBoard/DashBoard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/covid_country/DashBoard/DashBoard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/covid_country/PieChart/PieChart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/covid_country/SwitchCountry/SwitchCountry.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/covid_country/apiDataDaily.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/covid_country/covidCountrySlide.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/variables.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/covid/DashBoard/DashBoard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/DashBoard/DashBoard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/covid/covidSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/covidSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/covid/SwitchCountry/SwitchCountry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/SwitchCountry/SwitchCountry.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Country.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Country.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +48,11 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/features/covid/PieChart" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +63,7 @@
       <updated>1598172275349</updated>
       <workItem from="1598172276525" duration="6231000" />
       <workItem from="1598240026579" duration="19662000" />
+      <workItem from="1598356986432" duration="7681000" />
     </task>
     <servers />
   </component>

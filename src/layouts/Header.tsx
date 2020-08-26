@@ -10,10 +10,14 @@ import {selectDaily} from '../features/covid_country/covidCountrySlide'
 
 const useStyles = makeStyles(() => ({
   title: {
-    flexGrow: 1
+    flexGrow: 1,
+    fontWeight: `bold`,
+    fontSize: `1.4rem`,
+    lineHeight: 1
   },
   subtitle: {
-    fontSize: `12px`
+    fontWeight: `normal`,
+    fontSize: `.8rem`
   },
   link: {
     color: `#fff`,

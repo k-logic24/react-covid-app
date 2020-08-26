@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94517f6d-de00-48a1-a37b-f4222519eeec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/features/covid_country/Cards/Cards.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/covid_country/Chart/Chart.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/covid_country/DashBoard/DashBoard.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/covid_country/PieChart/PieChart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/covid_country/SwitchCountry/SwitchCountry.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/covid_country/apiDataDaily.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/covid_country/covidCountrySlide.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/covid/Chart/Chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/Chart/Chart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/covid/PieChart/PieChart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/PieChart/PieChart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/covid/SwitchCountry/SwitchCountry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/SwitchCountry/SwitchCountry.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/covid_country/Cards/Cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid_country/Cards/Cards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/covid_country/Chart/Chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid_country/Chart/Chart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/covid_country/DashBoard/DashBoard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid_country/DashBoard/DashBoard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Country.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Country.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/variables.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/variables.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +49,7 @@
       <updated>1598172275349</updated>
       <workItem from="1598172276525" duration="6231000" />
       <workItem from="1598240026579" duration="19662000" />
-      <workItem from="1598356986432" duration="10348000" />
+      <workItem from="1598356986432" duration="12274000" />
     </task>
     <servers />
   </component>

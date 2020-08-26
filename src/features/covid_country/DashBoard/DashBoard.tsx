@@ -1,14 +1,14 @@
 import React, {useEffect} from 'react'
 import {useDispatch} from 'react-redux'
 
-import {Grid} from "@material-ui/core";
+import {Grid} from "@material-ui/core"
 
 import Cards from '../Cards/Cards'
 import Chart from '../Chart/Chart'
 import PieChart from '../PieChart/PieChart'
-import SwitchCountry from "../SwitchCountry/SwitchCountry";
-import styles from "./DashBoard.module.css";
-import {fetchAsyncGetDaily} from "../covidCountrySlide";
+import SwitchCountry from "../SwitchCountry/SwitchCountry"
+import styles from "./DashBoard.module.css"
+import {fetchAsyncGetDaily} from "../covidCountrySlide"
 
 const DashBoard: React.FC = () => {
   const dispatch = useDispatch()

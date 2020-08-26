@@ -8,7 +8,7 @@ import {AiFillLike} from 'react-icons/ai'
 
 import {useSelector} from "react-redux"
 import {selectDaily} from "../covidCountrySlide"
-import styles from "../../covid/Cards/Cards.module.css";
+import styles from "../../covid/Cards/Cards.module.css"
 
 const Cards: React.FC = () => {
   const daily = useSelector(selectDaily)
@@ -66,7 +66,7 @@ const Cards: React.FC = () => {
         </Grid>
       </Grid>
     </div>
-  );
-};
+  )
+}
 
-export default Cards;
+export default Cards

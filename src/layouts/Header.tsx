@@ -1,12 +1,12 @@
 import React from 'react'
 import {Link, useLocation} from 'react-router-dom'
-import {AppBar, Toolbar, Typography} from "@material-ui/core"
+import {AppBar, Toolbar, Typography} from '@material-ui/core'
 
-import {makeStyles} from "@material-ui/core/styles"
+import {makeStyles} from '@material-ui/core/styles'
 
-import {useSelector} from "react-redux"
-import {selectData} from "../features/covid/covidSlice"
-import {selectDaily} from "../features/covid_country/covidCountrySlide";
+import {useSelector} from 'react-redux'
+import {selectData} from '../features/covid/covidSlice'
+import {selectDaily} from '../features/covid_country/covidCountrySlide'
 
 const useStyles = makeStyles(() => ({
   title: {
@@ -32,7 +32,7 @@ const Header: React.FC = () => {
   const daily = useSelector(selectDaily)
 
   return (
-    <AppBar position="absolute">
+    <AppBar position={'absolute'}>
       <Toolbar>
         <Typography className={classes.title}>
           Covid-19 Live<br />
@@ -45,10 +45,10 @@ const Header: React.FC = () => {
           </span>
         </Typography>
         <Typography>
-          <Link to={"/"} className={classes.link}>
+          <Link to={'/'} className={classes.link}>
             DashBoard
           </Link>
-          <Link to={"/country"} className={classes.link}>
+          <Link to={'/country'} className={classes.link}>
             Country
           </Link>
         </Typography>

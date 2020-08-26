@@ -49,7 +49,7 @@ const PieChart: React.FC = () => {
       )}
       {pieChart}
     </>
-  );
-};
+  )
+}
 
-export default PieChart;
+export default PieChart

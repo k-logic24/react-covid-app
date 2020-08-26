@@ -13,5 +13,5 @@ export const countries = [
   `thailand`,
   `new zealand`,
   `sweden`,
-  `indea`
+  `india`
 ]

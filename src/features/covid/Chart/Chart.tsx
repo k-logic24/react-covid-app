@@ -1,7 +1,7 @@
 import React from 'react'
 import { Line, Bar } from 'react-chartjs-2'
 import {useSelector} from "react-redux"
-import {selectData, selectCountry, selectDailyData} from "../covidSlice";
+import {selectData, selectCountry, selectDailyData} from "../covidSlice"
 
 import styles from './Chart.module.css'
 

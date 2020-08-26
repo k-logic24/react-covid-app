@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 import {Line} from 'react-chartjs-2'
 
 import styles from './Chart.module.css'
-import {useSelector} from "react-redux";
-import {selectDaily} from "../covidCountrySlide";
+import {useSelector} from "react-redux"
+import {selectDaily} from "../covidCountrySlide"
 
 const Chart: React.FC = () => {
   const daily = useSelector(selectDaily)
@@ -40,7 +40,7 @@ const Chart: React.FC = () => {
     <div className={styles.container}>
       {lineChart}
     </div>
-  );
-};
+  )
+}
 
-export default Chart;
+export default Chart

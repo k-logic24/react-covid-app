@@ -3,7 +3,7 @@ import {makeStyles} from "@material-ui/core/styles"
 import {NativeSelect, FormControl} from "@material-ui/core"
 import {useDispatch} from "react-redux"
 
-import {countries} from "../../../utils/variables";
+import {countries} from "../../../utils/variables"
 import {fetchAsyncGetCountry} from "../covidSlice"
 
 const useStyles = makeStyles((theme) => ({
@@ -30,7 +30,7 @@ const SwitchCountry: React.FC = () => {
         ))}
       </NativeSelect>
     </FormControl>
-  );
-};
+  )
+}
 
-export default SwitchCountry;
+export default SwitchCountry

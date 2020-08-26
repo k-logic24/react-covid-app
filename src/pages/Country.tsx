@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 import DashBoard from '../features/covid_country/DashBoard/DashBoard'
 
@@ -7,7 +7,7 @@ const Country: React.FC = () => {
     <>
       <DashBoard />
     </>
-  );
-};
+  )
+}
 
-export default Country;
+export default Country

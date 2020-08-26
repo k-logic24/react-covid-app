@@ -1,6 +1,7 @@
 import React from 'react'
 import CountUp from "react-countup"
 import {Card, CardContent, Typography, Grid} from '@material-ui/core'
+import {makeStyles} from "@material-ui/core/styles";
 
 import {GiHastyGrave} from 'react-icons/gi'
 import {MdLocalHospital} from 'react-icons/md'
@@ -10,8 +11,20 @@ import {useSelector} from "react-redux"
 import {selectDaily} from "../covidCountrySlide"
 import styles from "../../covid/Cards/Cards.module.css"
 
+const useStyles = makeStyles(() => ({
+  icon: {
+    verticalAlign: `text-top`,
+    marginRight: `0.2em`
+  },
+  unit: {
+    fontSize: `0.8rem`,
+    marginLeft: `0.1em`
+  }
+}))
+
 const Cards: React.FC = () => {
   const daily = useSelector(selectDaily)
+  const classes = useStyles()
 
   return (
     <div className={styles.container}>
@@ -19,8 +32,8 @@ const Cards: React.FC = () => {
         <Grid item xs={12} md={3} component={Card} className={styles.infected}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
-              <MdLocalHospital />
-              Infected persons
+              <MdLocalHospital className={classes.icon}/>
+              感染者
             </Typography>
             <Typography variant="h5">
               <CountUp
@@ -29,14 +42,15 @@ const Cards: React.FC = () => {
                 duration={1.5}
                 separator=","
               />
+              <span className={classes.unit}>人</span>
             </Typography>
           </CardContent>
         </Grid>
         <Grid item xs={12} md={3} component={Card} className={styles.recovered}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
-              <AiFillLike />
-              Recovered persons
+              <AiFillLike className={classes.icon}/>
+              回復者
             </Typography>
             <Typography variant="h5">
               <CountUp
@@ -45,14 +59,15 @@ const Cards: React.FC = () => {
                 duration={1.5}
                 separator=","
               />
+              <span className={classes.unit}>人</span>
             </Typography>
           </CardContent>
         </Grid>
         <Grid item xs={12} md={3} component={Card} className={styles.deaths}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
-              <GiHastyGrave />
-              Deaths persons
+              <GiHastyGrave className={classes.icon}/>
+              死亡者
             </Typography>
             <Typography variant="h5">
               <CountUp
@@ -61,6 +76,7 @@ const Cards: React.FC = () => {
                 duration={1.5}
                 separator=","
               />
+              <span className={classes.unit}>人</span>
             </Typography>
           </CardContent>
         </Grid>

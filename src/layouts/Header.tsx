@@ -50,10 +50,10 @@ const Header: React.FC = () => {
         </Typography>
         <Typography>
           <Link to={'/'} className={classes.link}>
-            DashBoard
+            概要一覧
           </Link>
           <Link to={'/country'} className={classes.link}>
-            Country
+            国別時系列一覧
           </Link>
         </Typography>
       </Toolbar>

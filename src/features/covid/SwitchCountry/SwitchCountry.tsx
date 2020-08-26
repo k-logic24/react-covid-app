@@ -22,10 +22,10 @@ const SwitchCountry: React.FC = () => {
       <NativeSelect
         onChange={(event: React.ChangeEvent<HTMLSelectElement>) => dispatch(fetchAsyncGetCountry(event.target.value))
         }>
-        <option value="">Worldwide</option>
-        {countries.map((country, index) => (
-          <option key={index} value={country}>
-            {country}
+        <option value="">全世界</option>
+        {countries.map(({en, ja}, index) => (
+          <option key={index} value={en}>
+            {ja}
           </option>
         ))}
       </NativeSelect>

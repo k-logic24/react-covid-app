@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94517f6d-de00-48a1-a37b-f4222519eeec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/utils/CertainCountry.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/covid/Cards/Cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/Cards/Cards.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/covid/Chart/Chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/covid/Chart/Chart.tsx" afterDir="false" />
@@ -58,7 +59,7 @@
       <updated>1598172275349</updated>
       <workItem from="1598172276525" duration="6231000" />
       <workItem from="1598240026579" duration="19662000" />
-      <workItem from="1598356986432" duration="17675000" />
+      <workItem from="1598356986432" duration="18933000" />
     </task>
     <servers />
   </component>
@@ -84,10 +85,10 @@
     </state>
     <state x="499" y="-819" width="584" height="580" key="find.popup/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1598394538327" />
     <state x="501" y="220" width="568" height="580" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1598414545956" />
-    <state x="456" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1598445487441">
+    <state x="456" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1598447899616">
       <screen x="-169" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="456" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1598445487441" />
+    <state x="456" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1598447899616" />
     <state x="381" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-244.-1057.1920.1057/1676.-1057.1920.1057@-244.-1057.1920.1057" timestamp="1598327794437" />
     <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1598414401800" />
   </component>

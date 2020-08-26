@@ -53,7 +53,7 @@ const Header: React.FC = () => {
             概要一覧
           </Link>
           <Link to={'/country'} className={classes.link}>
-            国別時系列一覧
+            国別時系列
           </Link>
         </Typography>
       </Toolbar>

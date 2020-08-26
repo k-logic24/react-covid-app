@@ -2,8 +2,8 @@ import React from 'react'
 import {makeStyles} from '@material-ui/core/styles'
 import {NativeSelect, FormControl} from '@material-ui/core'
 
-import {useDispatch, useSelector} from 'react-redux'
-import {fetchAsyncGetCountry, selectCountry} from '../covidSlice'
+import {useDispatch} from 'react-redux'
+import {fetchAsyncGetCountry} from '../covidSlice'
 
 import {countries} from '../../../utils/variables'
 
@@ -16,7 +16,6 @@ const useStyles = makeStyles((theme) => ({
 
 const SwitchCountry: React.FC = () => {
   const classes = useStyles()
-  const country = useSelector(selectCountry)
   const dispatch = useDispatch()
 
   return (
@@ -26,7 +25,7 @@ const SwitchCountry: React.FC = () => {
         }>
         <option value=''>全世界</option>
         {countries.map(({en, ja}, index) => (
-          <option key={index} value={en} selected={country === en ? true : false}>
+          <option key={index} value={en}>
             {ja}
           </option>
         ))}

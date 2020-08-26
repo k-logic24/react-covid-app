@@ -33,7 +33,7 @@ const Chart: React.FC = () => {
       }}
       options={{
         legend: { display: false },
-        title: { display: true, text: `Latest status in ${certainCountry(country)}` }
+        title: { display: false }
       }}
     />
   )

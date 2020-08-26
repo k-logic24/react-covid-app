@@ -3,7 +3,7 @@ import { Line, Bar } from 'react-chartjs-2'
 import {useSelector} from 'react-redux'
 import {selectData, selectCountry, selectDailyData} from '../covidSlice'
 
-import CertainCountry from '../../../utils/CertainCountry'
+import certainCountry from '../../../utils/CertainCountry'
 import styles from './Chart.module.css'
 
 const Chart: React.FC = () => {
@@ -33,7 +33,7 @@ const Chart: React.FC = () => {
       }}
       options={{
         legend: { display: false },
-        title: { display: true, text: `Latest status in ${CertainCountry(country)}` }
+        title: { display: true, text: `Latest status in ${certainCountry(country)}` }
       }}
     />
   )

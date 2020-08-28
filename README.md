@@ -1,4 +1,4 @@
-#React Covid-19 App
+# React Covid-19 App
 ## develop
 `yarn start`
 ## build

@@ -5,8 +5,8 @@ import {AppBar, Toolbar, Typography} from '@material-ui/core'
 import {makeStyles} from '@material-ui/core/styles'
 
 import {useSelector} from 'react-redux'
-import {selectData} from '../features/covid/covidSlice'
-import {selectDaily} from '../features/covid_country/covidCountrySlide'
+import {selectData} from '@/store/reducer/covidGlobalSlice'
+import {selectDaily} from '@/store/reducer/covidLocalSlide'
 
 const useStyles = makeStyles(() => ({
   title: {
@@ -52,7 +52,7 @@ const Header: React.FC = () => {
           <Link to={'/'} className={classes.link}>
             概要一覧
           </Link>
-          <Link to={'/country'} className={classes.link}>
+          <Link to={'/local'} className={classes.link}>
             国別時系列
           </Link>
         </Typography>

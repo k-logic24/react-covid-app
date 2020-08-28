@@ -4,8 +4,8 @@ import {Route} from 'react-router-dom'
 
 import Header from './Header'
 import {makeStyles} from '@material-ui/core/styles'
-import Home from '../pages/Home'
-import Country from '../pages/Country'
+import Global from '@/pages/Global'
+import Local from '@/pages/Local'
 
 const useStyles = makeStyles(() => ({
   content: {
@@ -20,8 +20,8 @@ const Layout: React.FC = () => {
     <>
       <Header />
       <Container className={classes.content}>
-        <Route exact path='/' component={Home}></Route>
-        <Route exact path='/country' component={Country}></Route>
+        <Route exact path='/' component={Global}></Route>
+        <Route exact path='/local' component={Local}></Route>
       </Container>
     </>
   )

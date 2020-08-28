@@ -4,8 +4,8 @@ import { Provider } from 'react-redux'
 import {BrowserRouter as Router} from 'react-router-dom'
 
 import './index.css'
-import Layout from "./layouts/Layout"
-import { store } from './app/store'
+import Layout from "@/layouts/Layout"
+import {store} from "@/store"
 
 ReactDOM.render(
   <Router>

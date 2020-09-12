@@ -28,17 +28,24 @@ type Props = {
 
 const Cards: React.FC<Props> = ({item}) => {
   const classes = useStyles()
-  const isInfected = item.class === `infected`
-  const isRecovered = item.class === `recovered`
-  const isDeaths = item.class === `deaths`
+  const featureIcon = () => {
+    switch (item.class) {
+      case 'infected':
+        return <MdLocalHospital className={classes.icon}/>
+      case 'recovered':
+        return <AiFillLike className={classes.icon}/>
+      case 'deaths':
+        return <GiHastyGrave className={classes.icon}/>
+      default:
+        return null
+    }
+  }
 
   return (
     <Grid item xs={12} md={3} component={Card} className={`base-card-item ${item.class}`}>
       <CardContent>
         <Typography color='textSecondary' gutterBottom>
-          { isInfected && <MdLocalHospital className={classes.icon}/> }
-          { isRecovered && <AiFillLike className={classes.icon}/> }
-          { isDeaths && <GiHastyGrave className={classes.icon}/> }
+          {featureIcon()}
           {item.name}
         </Typography>
         <Typography variant='h5'>

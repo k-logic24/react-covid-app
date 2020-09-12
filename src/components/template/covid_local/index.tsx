@@ -36,7 +36,7 @@ const CovidLocal: React.FC<{dailyDatas: Props}> = ({dailyDatas}) => {
         <Grid item xs={12} md={12}>
           <Grid container spacing={1} justify='center'>
             {dailyDatas
-              ? dailyDatas.map(item => <Cards item={item}/>)
+              ? dailyDatas.map(item => <Cards key={item.name} item={item}/>)
               : null
             }
           </Grid>

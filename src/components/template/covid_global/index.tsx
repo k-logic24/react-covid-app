@@ -31,7 +31,7 @@ const CovidGlobal: React.FC<{selectDatas: Props}> = ({selectDatas}) => {
         <Grid item xs={12} md={12}>
           <Grid container spacing={1} justify='center'>
             {selectDatas
-              ? selectDatas.map((item, index) => <Cards key={index} item={item}/>)
+              ? selectDatas.map((item) => <Cards key={item.name} item={item}/>)
               : null
             }
           </Grid>

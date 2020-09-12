@@ -33,7 +33,7 @@ const Cards: React.FC<Props> = ({item}) => {
   const isDeaths = item.class === `deaths`
 
   return (
-    <Grid item xs={12} md={3} component={Card} className={item.class}>
+    <Grid item xs={12} md={3} component={Card} className={`base-card-item ${item.class}`}>
       <CardContent>
         <Typography color='textSecondary' gutterBottom>
           { isInfected && <MdLocalHospital className={classes.icon}/> }

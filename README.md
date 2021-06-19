@@ -1,5 +1,5 @@
 # React Covid-19 App
-This covid-19-app is checking the corona situation.
+
 ## develop
 `yarn start`
 ## build
